@@ -1,0 +1,74 @@
+*{
+    border:solid,
+
+ 
+}
+
+
+body{
+ background-image: url("Bg image profolio.jpeg");   
+text-shadow:2px 2px  rgb(105, 138, 248); ;
+}
+.header{
+    background-color: rgb(105, 138, 248);
+
+
+
+}
+.reference{
+    background-color: rgb(105, 138, 248);
+    display:flex;
+    justify-content: left;
+    margin-bottom: 0px;
+}
+.reference a {
+    padding-right: 50px ;
+}
+a:visited {
+   color:rgb(rgb(192, 5, 5)) ;
+}
+a:link{
+    color: rgb(248, 105, 105);
+}
+h1{
+    margin-left: 525px;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(105, 138, 248);
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(105, 138, 248);
+}
+.items {
+    position:relative;
+}
+.items p {
+position:absolute;
+top:50%;
+left:50%; 
+transform: translate(-50%,-150%);
+opacity:0;
+}
+
+.items:hover p{
+opacity:1;
+}
+
+.items:hover img {
+opacity:0.4
+}
+.icons{
+    margin-top: 250px;
+
+    padding-left:250px;
+    background-color:rgb(105, 138, 248)
+
+    
+}
+
